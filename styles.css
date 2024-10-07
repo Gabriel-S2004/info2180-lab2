@@ -38,8 +38,8 @@ h1 {
 
 .profile-picture {
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
+    height: 210px;
+    width: 170px;
 }
 
 main {
@@ -59,6 +59,12 @@ footer {
 }
 
 /* Blog Post Styles */
+article {
+    border-bottom: 2px solid #E2E8F0; /* Adds a separator line between posts */
+    margin-bottom: 40px; /* Adds extra spacing between blog posts */
+    padding-bottom: 20px; /* Adds padding below each blog post */
+}
+
 h2 {
     font-size: 32px;
     color: #48BB78;
@@ -71,8 +77,8 @@ h2 {
 .post-image {
     float: right;
     margin: 10px;
-    height: 150px;
-    width: 150px;
+    height: 250px;
+    width: 270px;
 }
 
 /* Sidebar Styles */
